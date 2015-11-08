@@ -1,0 +1,4 @@
+
+curl -vv -H "Content-Type: application/json" -X POST -d '{"name":"admin","pass":"1234"}' http://localhost:8080/login
+
+curl -vv "http://localhost:8080/opendoor?name=admin&pass=1234"
